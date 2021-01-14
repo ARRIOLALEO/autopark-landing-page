@@ -12,10 +12,10 @@ export default function Hero() {
             Stripe’s software and APIs to accept payments, send payouts, and
             manage their businesses online.
           </p>
-          <button class="btn">Start now</button>
+          <button className="btn">Start now</button>
         </article>
         <article className="hero-images">
-      <img src="/images/lexus.png" class="phone-img" alt="phone" />
+      <img src="/images/lexus.png" className="phone-img" alt="phone" />
       </article>
       </div>
     </section>

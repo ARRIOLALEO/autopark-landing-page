@@ -450,8 +450,15 @@ max-width: 15em;
 .grid-car{
   display: grid;
   grid-template-columns: repeat(4, 1fr);
+  margin: auto;
 }
 .grid-1{
   grid-column-start: 1;
   grid-column-end: 5;
+  text-align: center;
+}
+.grid-2{
+  grid-column-start: 1;
+  grid-column-end: 5;
+  margin: 4em;
 }
