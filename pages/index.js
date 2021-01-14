@@ -3,6 +3,7 @@ import styles from '../styles/Home.module.css'
 import Hero from '../Components/hero/Hero'
 import Cars from '../Components/Cars/Cars'
 
+
 export default function Home() {
   return (
     <>
