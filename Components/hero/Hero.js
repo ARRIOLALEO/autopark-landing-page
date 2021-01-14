@@ -1,5 +1,8 @@
-import React from "react";
+import React, {useState} from "react";
+import Modal from '../../Components/modal/modal'
+import {useAppContext} from '../context'
 export default function Hero() {
+const {showTheModal,showModal} = useAppContext()
   return (
       <>
     <section className="hero">
@@ -11,12 +14,16 @@ export default function Hero() {
             Stripe’s software and APIs to accept payments, send payouts, and
             manage their businesses online.
           </p>
-          <button className="btn">Start now</button>
+          <button className="btn" onClick={()=>{
+            showTheModal()
+          }}>Start now</button>
+          
         </article>
         <article className="hero-images">
       <img src="/images/lexus.png" className="phone-img" alt="phone" />
       </article>
       </div>
+      <Modal showModal={showModal}/>
     </section>
       
     
