@@ -1,7 +1,7 @@
 import React from 'react'
 
 export default function Car({data}) {
-    const {carName,price,img,Passangers, Doors,Velocity ,bagage, Seets} = data
+    const {carName,price,img,Passangers, Doors,Velocity ,Bagage, Seets} = data
     return (
         <div className="grid-car">
            <div className="grid-1"> {carName}</div> 
@@ -19,7 +19,7 @@ export default function Car({data}) {
                 <img src="/images/bagage.png" all="seats of the car" />
              </div>
              <div className="">
-                 {bagage}
+                 {Bagage}
             </div>
             </div> 
             <div className="elements-description">
