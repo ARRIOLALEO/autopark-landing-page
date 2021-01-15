@@ -467,9 +467,63 @@ max-width: 15em;
   display: block;
   display: block;
   position: fixed;
-  width: 98vw;
+  transition: all .5s ease-in-out;
+  -webkit-animation: pop-swirl 1s ease forwards;
+  width: 100vw;
   z-index: 1;
+  display: flex;
   height: 100vh;
   background: #4e2424a3;
 }
-.not-Show{display: none;}
+@keyframes pop-swirl {
+  0% {
+    transform: scale(0) rotate(360deg);
+  }
+  60% {
+    transform: scale(0.8) rotate(-10deg);
+  }
+  100% {
+    transform: scale(1) rotate(0deg);
+  }
+}
+.not-Show{
+  display: none;
+}
+.modal-white{
+  margin: auto auto;
+  position: initial;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  width: 60vw;
+  height: 50vh;
+  background-color: white;
+  border-radius: 5px;
+}
+.close{
+  grid-column-start: 4;
+  grid-column-end: 5;
+  align-items: center;
+  align-content: center;
+  display: flex;
+  margin: auto;
+}
+.contact-elements-1{
+  grid-column-start: 1;
+  grid-column-end: 2;
+  padding: 2em;
+}
+.contact-elements-2{
+ grid-column-start: 2;
+ grid-column-end: 3;
+ padding: 2em;
+}
+.contact-elements-3{
+  grid-column-start:3;
+  grid-column-end:4;
+  padding: 2em;
+}
+.contact-elements-4{
+  grid-column-start:4;
+  grid-column-end:5;
+  padding: 2em;
+}
