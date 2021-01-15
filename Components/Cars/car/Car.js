@@ -1,7 +1,9 @@
 import React from 'react'
-
+import Modal from '../../modal/modal'
+import {useAppContext} from '../../context'
 export default function Car({data}) {
-    const {carName,price,img,Passangers, Doors,Velocity ,Bagage, Seets} = data
+     const {showModal, showTheModal} = useAppContext()
+    const {carName,price,img,Passangers, Doors,Velocity ,Bagage, Seets,youTubeVideo} = data
     return (
         <div className="grid-car">
            <div className="grid-1"> {carName}</div> 
@@ -37,7 +39,8 @@ export default function Car({data}) {
              {Velocity}
              </div>
              </div> 
-            <button className="btn grid-2">Book Now</button>
+            <button className="btn grid-2" onClick={()=> showTheModal()}>Book Now</button>
+            <Modal showModal={showModal} video ={youTubeVideo}/>
         </div>
     )
 }
