@@ -527,3 +527,19 @@ max-width: 15em;
   grid-column-end:5;
   padding: 2em;
 }
+.notshow-menu{
+  display: none;
+}
+.show-menu{
+  display: block;
+  position: fixed;
+  width: 100%;
+  z-index: 9999;
+  height: 100vh;
+  background:linear-gradient(180deg,#ff8a00,#e52e71);
+  color: white;
+}
+.center-elements{
+  display: flex;
+  flex-direction: column;
+}
