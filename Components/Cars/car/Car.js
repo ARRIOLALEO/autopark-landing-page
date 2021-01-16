@@ -3,7 +3,7 @@ import Modal from '../../modal/modal'
 import {useAppContext} from '../../context'
 export default function Car({data}) {
      const {showModal, showTheModal} = useAppContext()
-    const {carName,price,img,Passangers, Doors,Velocity ,Bagage, Seets,youTubeVideo} = data
+    const {carName,price,img,Passangers, Doors,Velocity ,Bagage, Seets,youTubeVideo,} = data
     return (
         <div className="grid-car">
            <div className="grid-1"> {carName}</div> 
@@ -39,6 +39,18 @@ export default function Car({data}) {
              {Velocity}
              </div>
              </div> 
+             <div className=""> 
+            <div className="elements-description">
+            </div>
+             </div>
+             <div className=""> 
+            <div className="elements-description"> From :<br/> $ {price}
+            </div>
+             </div>
+             <div className="elements-description">Full Insured
+            </div>
+            <div className="elements-description">
+            </div>
             <button className="btn grid-2" onClick={()=> showTheModal()}>Book Now</button>
             <Modal showModal={showModal} video ={youTubeVideo}/>
         </div>

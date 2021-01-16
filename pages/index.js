@@ -37,7 +37,7 @@ export default function Home() {
           rel="noopener noreferrer"
         >
           Powered by{' '}
-          <img src="/vercel.svg" alt="Vercel Logo" className={styles.logo} />
+          <img src="/images/autopark.png" alt=""  className={styles.logo} />
         </a>
       </footer>
     </>
