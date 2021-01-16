@@ -467,25 +467,13 @@ max-width: 15em;
   display: block;
   display: block;
   position: fixed;
-  transition: all .5s ease-in-out;
-  -webkit-animation: pop-swirl 1s ease forwards;
   width: 100vw;
   z-index: 1;
   display: flex;
   height: 100vh;
   background: #4e2424a3;
 }
-@keyframes pop-swirl {
-  0% {
-    transform: scale(0) rotate(360deg);
-  }
-  60% {
-    transform: scale(0.8) rotate(-10deg);
-  }
-  100% {
-    transform: scale(1) rotate(0deg);
-  }
-}
+
 .not-Show{
   display: none;
 }
@@ -530,6 +518,11 @@ max-width: 15em;
 .notshow-menu{
   display: none;
   transition: transform 1s ease-in-out;
+  -webkit-animation: fadeout 1s; /* Safari, Chrome and Opera > 12.1 */
+  -moz-animation: fadeout 1s; /* Firefox < 16 */
+   -ms-animation: fadeout  1s; /* Internet Explorer */
+    -o-animation: fadeout  1s; /* Opera < 12.1 */
+       animation: fadeout  1s;
 }
 .show-menu{
   display: block;
@@ -557,10 +550,19 @@ max-width: 15em;
   to   { opacity: 1; }
 }
 
+@-moz-keyframes fadeout{
+  from { opacity: 1; }
+  to   { opacity: 0; }
+}
+
 /* Safari, Chrome and Opera > 12.1 */
 @-webkit-keyframes fadein {
   from { opacity: 0; }
   to   { opacity: 1; }
+}
+@-webkit-keyframes fadeout {
+  from { opacity: 1; }
+  to   { opacity: 0; }
 }
 
 /* Internet Explorer */
@@ -568,11 +570,19 @@ max-width: 15em;
   from { opacity: 0; }
   to   { opacity: 1; }
 }
+@-ms-keyframes fadeout{
+  from { opacity: 1; }
+  to   { opacity: 0; }
+}
 
 /* Opera < 12.1 */
 @-o-keyframes fadein {
   from { opacity: 0; }
   to   { opacity: 1; }
+}
+@-o-keyframes fadeout{
+  from { opacity: 1; }
+  to   { opacity: 0; }
 }
 .center-elements{
   display: flex;
