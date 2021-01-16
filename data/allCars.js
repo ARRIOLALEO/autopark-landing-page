@@ -3,132 +3,145 @@ export const allCars = [
     id:1,
     carName: "Toyota Land Cruiser 2008",
     price: 250,
-    img:"/images/lexus.png",
+    img:"/images/1.jpg",
     Passangers: 5,
     Doors: 4,
     Velocity : "Automatic",
     Bagage: 4,
     Seets: 4,
-    youTubeVideo:"6Ekg3KISJNg"
+    price:250
   },
   {
     id:2,
     carName: "Toyota Land Cruiser 2008",
     price: 250,
-    img:"/images/lexus.png",
+    img:"/images/2.jpg",
     Passangers: 5,
     Doors: 4,
     Velocity : "Automatic",
     Bagage: 4,
     Seets: 4,
-    youTubeVideo:"6Ekg3KISJNg"
+    price:250
   },
   {
     id:3,
     carName: "Toyota Land Cruiser 2008",
     price: 250,
-    img:"/images/lexus.png",
+    img:"/images/3.jpg",
     Passangers: 5,
     Doors: 4,
     Velocity : "Automatic",
     Bagage: 4,
     Seets: 4,
-    youTubeVideo:"6Ekg3KISJNg"
+    price:250
   },
   {
     id:4,
     carName: "Toyota Land Cruiser 2008",
     price: 250,
-    img:"/images/lexus.png",
+    img:"/images/4.jpg",
     Passangers: 5,
     Doors: 4,
     Velocity : "Automatic",
     Bagage: 4,
     Seets: 4,
-    youTubeVideo:"6Ekg3KISJNg"
+    price:250
   },
   {
     id:5,
     carName: "Toyota Land Cruiser 2008",
     price: 250,
-    img:"/images/lexus.png",
+    img:"/images/5.jpg",
     Passangers: 5,
     Doors: 4,
     Velocity : "Automatic",
     Bagage: 4,
     Seets: 4,
-    youTubeVideo:"6Ekg3KISJNg"
+    price:250
   },
   {
     id:6,
     carName: "Toyota Land Cruiser 2008",
     price: 250,
-    img:"/images/lexus.png",
+    img:"/images/6.jpg",
     Passangers: 5,
     Doors: 4,
     Velocity : "Automatic",
     Bagage: 4,
     Seets: 4,
-    youTubeVideo:"6Ekg3KISJNg"
+    price:250
   },
   {
     id:7,
     carName: "Toyota Land Cruiser 2008",
     price: 250,
-    img:"/images/lexus.png",
+    img:"/images/7.jpg",
     Passangers: 5,
     Doors: 4,
     Velocity : "Automatic",
     Bagage: 4,
     Seets: 4,
-    youTubeVideo:"6Ekg3KISJNg"
+    price:250
   },
   {
     id:8,
     carName: "Toyota Land Cruiser 2008",
     price: 250,
-    img:"/images/lexus.png",
+    img:"/images/8.jpg",
     Passangers: 5,
     Doors: 4,
     Velocity : "Automatic",
     Bagage: 4,
     Seets: 4,
-    youTubeVideo:"6Ekg3KISJNg"
+    price:250
   },
   {
     id:9,
     carName: "Toyota Land Cruiser 2008",
     price: 250,
-    img:"/images/lexus.png",
+    img:"/images/9.jpg",
     Passangers: 5,
     Doors: 4,
     Velocity : "Automatic",
     Bagage: 4,
     Seets: 4,
-    youTubeVideo:"6Ekg3KISJNg"
+    price:250
   },
   {
     id:10,
     carName: "Toyota Land Cruiser 2008",
     price: 250,
-    img:"/images/lexus.png",
+    img:"/images/10.jpg",
     Passangers: 5,
     Doors: 4,
     Velocity : "Automatic",
     Bagage: 4,
     Seets: 4,
-    youTubeVideo:"6Ekg3KISJNg"
+    price:250
   },
   {
     id:11,
     carName: "Toyota Land Cruiser 2008",
     price: 250,
-    img:"/images/lexus.png",
+    img:"/images/11.jpg",
     Passangers: 5,
     Doors: 4,
     Velocity : "Automatic",
     Bagage: 4,
     Seets: 4,
-    youTubeVideo:"6Ekg3KISJNg"
+    price:250
+  },
+  ,
+  {
+    id:11,
+    carName: "Toyota Land Cruiser 2008",
+    price: 250,
+    img:"/images/12.jpg",
+    Passangers: 5,
+    Doors: 4,
+    Velocity : "Automatic",
+    Bagage: 4,
+    Seets: 4,
+    price:250
   },
 ];

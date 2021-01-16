@@ -34,17 +34,32 @@ export default function Modal({ showModal,video}) {
             CLOSE
           </button>
         </div>
-        <div className="contact-elements-1">
+        <div className="contact-elements-1 is-mobile">
            <a href="https://wa.me/996555858585"> <FaWhatsapp size={70} color="green"/> </a>
         </div>
-        <div className="contact-elements-2">
+        <div className="contact-elements-2 is-mobile">
             <a href=""><FcIphone size={70}/></a>
         </div>
-        <div className="contact-elements-3">
+        <div className="contact-elements-3 is-mobile">
             <a  href="https://www.instagram.com/autopark.kgz/" target="_blank"><GrInstagram size={70}  color="blue"/></a>
         </div>
-         <div className="contact-elements-4">
+         <div className="contact-elements-4 is-mobile">
             <a href="https://www.facebook.com/CarRentKyrgyzstan" target="_blank"><AiFillFacebook size={70} color="blue"/></a>
+         </div>
+         
+
+         {/*  */}
+         <div className="contact-elements-1 is-mobile-ok">
+           <a href="https://wa.me/996555858585"> <FaWhatsapp size={30} color="green"/> <span class="text">+996 555858585</span></a>
+        </div>
+        <div className="contact-elements-2 is-mobile-ok">
+            <a href=""><FcIphone size={30}/> <span class="text">+996 555858585</span></a>
+        </div>
+        <div className="contact-elements-3 is-mobile-ok">
+            <a  href="https://www.instagram.com/autopark.kgz/" target="_blank"><GrInstagram size={30}  color="blue"/><span class="text">@autopark.kgz </span></a>
+        </div>
+         <div className="contact-elements-4 is-mobile-ok">
+            <a href="https://www.facebook.com/CarRentKyrgyzstan" target="_blank"><AiFillFacebook size={30} color="blue"/><span class="text">@CarRentKyrgyzstan</span></a>
          </div>
       </div>
     </div>
