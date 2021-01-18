@@ -8,19 +8,19 @@ const {showTheModal,showModal} = useAppContext()
     <section className="hero">
       <div className="hero-center">
         <article className="hero-info">
-          <h1>Rent a Car <br/> in Kyrgyzstan</h1>
+          <h1>Car for rent <br/>in Kyrgyzstan</h1>
           <p>
-            Millions of companies of all sizes—from startups to Fortune 500s—use
-            Stripe’s software and APIs to accept payments, send payouts, and
-            manage their businesses online.
+          Car rent in Kyrgyzstan is very convenient
+           for the tourists and those who came to our beautiful
+            country for a business, rent a car, car rent.
           </p>
           <button className="btn" onClick={()=>{
             showTheModal()
-          }}>Start now</button>
+          }} aria-label="Book a Car Bishkek">Book a Car Now</button>
           
         </article>
         <article className="hero-images">
-      <img src="/images/lexus.png" className="phone-img" alt="phone" />
+      <img src="/images/lexus.png" className="phone-img" alt="phone image lexus bishkek" />
       </article>
       </div>
       <Modal showModal={showModal}/>

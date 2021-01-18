@@ -133,7 +133,7 @@ export const allCars = [
   },
   ,
   {
-    id:11,
+    id:12,
     carName: "Toyota Land Cruiser 2008",
     price: 250,
     img:"/images/12.jpg",

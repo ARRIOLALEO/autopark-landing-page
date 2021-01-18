@@ -30,7 +30,7 @@ export default function Modal({ showModal,video}) {
       >
         <div className="close">
           {" "}
-          <button className="btn" onClick={() => notShowTheModal()}>
+          <button className="btn" onClick={() => notShowTheModal()} aria-label="Book a Car Bishkek">
             CLOSE
           </button>
         </div>
@@ -50,16 +50,16 @@ export default function Modal({ showModal,video}) {
 
          {/*  */}
          <div className="contact-elements-1 is-mobile-ok">
-           <a href="https://wa.me/996555858585"> <FaWhatsapp size={30} color="green"/> <span class="text">+996 555858585</span></a>
+           <a href="https://wa.me/996555858585"> <FaWhatsapp size={30} color="green"/> <span className="text">+996 555858585</span></a>
         </div>
         <div className="contact-elements-2 is-mobile-ok">
-            <a href=""><FcIphone size={30}/> <span class="text">+996 555858585</span></a>
+            <a href=""><FcIphone size={30}/> <span className="text">+996 555858585</span></a>
         </div>
         <div className="contact-elements-3 is-mobile-ok">
-            <a  href="https://www.instagram.com/autopark.kgz/" target="_blank"><GrInstagram size={30}  color="blue"/><span class="text">@autopark.kgz </span></a>
+            <a  href="https://www.instagram.com/autopark.kgz/" target="_blank"><GrInstagram size={30}  color="blue"/><span className="text">@autopark.kgz </span></a>
         </div>
          <div className="contact-elements-4 is-mobile-ok">
-            <a href="https://www.facebook.com/CarRentKyrgyzstan" target="_blank"><AiFillFacebook size={30} color="blue"/><span class="text">@CarRentKyrgyzstan</span></a>
+            <a href="https://www.facebook.com/CarRentKyrgyzstan" target="_blank"><AiFillFacebook size={30} color="blue"/><span className="text">@CarRentKyrgyzstan</span></a>
          </div>
       </div>
     </div>
