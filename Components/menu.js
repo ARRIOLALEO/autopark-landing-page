@@ -4,7 +4,6 @@ import {FaWhatsapp} from "react-icons/fa"
 import {FcIphone} from "react-icons/fc"
 import {GrInstagram} from "react-icons/gr"
 import {AiFillFacebook} from "react-icons/ai"
-
 export default function Menu({showTheMenu}) {
     const {notShowMenu } = useAppContext()
     return (
